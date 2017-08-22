@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.cabecalho {
+  width: 100%;
+  background-color: gray;
+}
+
+.cabecalho img {
+  width: 100%;
+}
+
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px;
+}
+
+.thumbnail:hover {
+  box-shadow: 2px 2px 5px black;
+}
